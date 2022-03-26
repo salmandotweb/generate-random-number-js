@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  background: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+}
+.number {
+  margin: 2rem 0;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+.generateBtn {
+  background: none;
+  background: wheat;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.generateBtn:active {
+  transform: scale(0.98);
+}
